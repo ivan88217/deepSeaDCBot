@@ -1,0 +1,16 @@
+{
+  "name": "deep-sea-dc-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node ."
+  },
+  "dependencies": {
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.31.2",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "firebase": "^9.6.11"
+  }
+}

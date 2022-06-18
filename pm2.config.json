@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/edosssa/pm2-config/master/pm2config.json",
+    "apps": [
+        {
+            "name": "DeepSeaDCBot",
+            "script": "index.js",
+            "watch": "false",
+            "ignore_watch": [
+                "node_modules"
+            ],
+            "exec_mode": "cluster"
+        }
+    ]
+}
